@@ -33,7 +33,7 @@ const schema = new Schema({
     }],
     image: {
         type: String,
-        required: [true, 'Title é obrigatório'],
+        required: [true, 'Imagem é obrigatória'],
         trim: true
     },
 });
